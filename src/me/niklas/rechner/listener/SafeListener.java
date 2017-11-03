@@ -54,7 +54,7 @@ public class SafeListener {
 						Thread.currentThread().stop();
 					}
 				} else {
-					Rechner.gui.lblEditError.setText("Alle Felder müssen ausgefüllt sein.");
+					Rechner.gui.lblEditError.setText("Alle Felder mï¿½ssen ausgefÃ¼llt sein.");
 					
 					Thread.currentThread().stop();
 				}

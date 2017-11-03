@@ -18,7 +18,7 @@ public class CalculateListener {
 				try {
 					amount = Double.parseDouble(Rechner.gui.txtAmount.getText());
 				} catch(NumberFormatException e) {
-					Rechner.gui.lblOutput.setText("Bitte gebe eine gültige Zahl ein.");
+					Rechner.gui.lblOutput.setText("Bitte gebe eine gÃ¼ltige Zahl ein.");
 					Thread.currentThread().stop();
 				}
 				
